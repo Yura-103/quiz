@@ -1,0 +1,45 @@
+/* Базові налаштування */
+body {
+    font-size: 32px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://wallpaperswide.com/download/old_music_score_background-wallpaper-1680x1050.jpg");
+}
+
+#quiz-screen{
+    
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+button {
+    border: 2px solid purple;
+    background-color: violet;
+    border-radius: 30px;
+    padding: 35px;
+    font-size: 30px;
+    opacity: 0.6;
+    box-shadow: 0 0 15px purple;
+    
+    
+}
+
+button:hover {
+    border: 2px solid purple;
+    background-color: violet;
+    border-radius: 30px;
+    padding: 35px;
+    font-size: 30px;
+    opacity: 1;
